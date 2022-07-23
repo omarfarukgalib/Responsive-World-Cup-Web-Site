@@ -228,7 +228,7 @@ hr {
     }
 
     .banner-img {
-        margin-left: 0px;
+        margin-left: -5px;
         padding-top: 10px;
 
 
@@ -275,7 +275,7 @@ hr {
     .first-section-of-main-div {
 
         margin-top: -40px;
-        margin-left: 90px;
+        margin-left: 85px;
     }
 
     .second-section-of-main-div {
@@ -300,7 +300,7 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
         justify-items: center;
-        margin-left: -70px;
+        margin-left: -100px;
     }
 
     .para-1 {
@@ -331,6 +331,6 @@ hr {
     }
 
     .footer-heading {
-        margin-right: 70px;
+        margin-right: 90px;
     }
 }
