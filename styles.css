@@ -210,3 +210,127 @@ hr {
     margin-left: 630px;
 
 }
+
+@media screen and (max-width:688px) {
+    .parent-of-header {
+        width: 100vw;
+
+
+    }
+
+    .background-header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: black;
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .banner-img {
+        margin-left: 0px;
+        padding-top: 10px;
+
+
+    }
+
+    .header-info-parent {
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .header-info-h2 {
+        margin-left: 50px;
+    }
+
+    .info-paragraph {
+        width: 200px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .watch-live-anchor-parent {
+        background-color: red;
+        padding: 20px 30px;
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        border-radius: 7px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .card-of-buttons {
+        width: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        border-radius: 10px;
+
+    }
+
+    .first-section-of-main-div {
+
+        margin-top: -40px;
+        margin-left: 90px;
+    }
+
+    .second-section-of-main-div {
+        width: 70vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+        margin-left: 40px;
+
+        grid-row-gap: 40px;
+    }
+
+    footer {
+        background-color: black;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 80px;
+    }
+
+    .footer-anchor-parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        margin-left: -70px;
+    }
+
+    .para-1 {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        padding: 0px;
+
+    }
+
+    .social-media {
+        width: 35px;
+
+    }
+
+    .icon-img {
+        margin-left: 90px;
+        margin-top: 70px;
+
+    }
+
+    hr {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-left: 55px;
+
+    }
+
+    .footer-heading {
+        margin-right: 70px;
+    }
+}
